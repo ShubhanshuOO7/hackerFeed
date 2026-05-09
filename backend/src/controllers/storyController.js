@@ -1,5 +1,5 @@
 import Story from "../models/Story.js";
-import User from "../models/User.js";
+import User from "../models/user.js";
 
 export const getStories = async (req, res) => {
   const page = Number(req.query.page) || 1;
